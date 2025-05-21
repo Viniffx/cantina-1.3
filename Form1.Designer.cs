@@ -1,6 +1,6 @@
 ﻿namespace Cantina_1._3
 {
-    partial class Form1
+    partial class Form1_Pedidos
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,59 +36,74 @@
             btnAdicionar = new Button();
             btnremover = new Button();
             btbEncerrar = new Button();
+            numericUpDown = new NumericUpDown();
+            pictureBox1 = new PictureBox();
+            label3 = new Label();
+            cmbPagamento = new ComboBox();
+            labelV = new Label();
+            labelT = new Label();
+            txtValorPago = new TextBox();
+            txtTroco = new TextBox();
+            checkViagem = new CheckBox();
+            nomeCliente = new TextBox();
+            label4 = new Label();
+            label5 = new Label();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(81, 41);
+            label1.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(67, 153);
             label1.Name = "label1";
-            label1.Size = new Size(55, 15);
+            label1.Size = new Size(77, 18);
             label1.TabIndex = 0;
             label1.Text = "Produtos";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(468, 41);
+            label2.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(539, 153);
             label2.Name = "label2";
-            label2.Size = new Size(53, 15);
+            label2.Size = new Size(73, 18);
             label2.TabIndex = 1;
             label2.Text = "Carrinho";
             // 
             // listBox1
             // 
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(81, 82);
+            listBox1.Location = new Point(67, 174);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(203, 124);
+            listBox1.Size = new Size(231, 180);
             listBox1.TabIndex = 2;
             // 
             // listBox2
             // 
             listBox2.FormattingEnabled = true;
-            listBox2.ItemHeight = 15;
-            listBox2.Location = new Point(468, 82);
+            listBox2.Location = new Point(539, 174);
             listBox2.Name = "listBox2";
-            listBox2.Size = new Size(203, 124);
+            listBox2.Size = new Size(231, 180);
             listBox2.TabIndex = 3;
             // 
             // lblTotal
             // 
             lblTotal.AutoSize = true;
-            lblTotal.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTotal.Location = new Point(468, 227);
+            lblTotal.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotal.Location = new Point(539, 357);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(70, 25);
+            lblTotal.Size = new Size(94, 29);
             lblTotal.TabIndex = 4;
             lblTotal.Text = "Total:  ";
             // 
             // btnAdicionar
             // 
-            btnAdicionar.Location = new Point(327, 93);
+            btnAdicionar.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAdicionar.Location = new Point(367, 270);
             btnAdicionar.Name = "btnAdicionar";
-            btnAdicionar.Size = new Size(97, 23);
+            btnAdicionar.Size = new Size(111, 32);
             btnAdicionar.TabIndex = 5;
             btnAdicionar.Text = "Adicionar >";
             btnAdicionar.UseVisualStyleBackColor = true;
@@ -96,9 +111,10 @@
             // 
             // btnremover
             // 
-            btnremover.Location = new Point(327, 161);
+            btnremover.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnremover.Location = new Point(367, 308);
             btnremover.Name = "btnremover";
-            btnremover.Size = new Size(97, 23);
+            btnremover.Size = new Size(111, 31);
             btnremover.TabIndex = 6;
             btnremover.Text = "< Remover";
             btnremover.UseVisualStyleBackColor = true;
@@ -106,19 +122,148 @@
             // 
             // btbEncerrar
             // 
-            btbEncerrar.Location = new Point(309, 290);
+            btbEncerrar.Font = new Font("Microsoft Sans Serif", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btbEncerrar.Location = new Point(549, 495);
             btbEncerrar.Name = "btbEncerrar";
-            btbEncerrar.Size = new Size(150, 45);
+            btbEncerrar.Size = new Size(140, 48);
             btbEncerrar.TabIndex = 7;
             btbEncerrar.Text = "Fechar Pedido";
             btbEncerrar.UseVisualStyleBackColor = true;
             btbEncerrar.Click += btbEncerrar_Click;
             // 
-            // Form1
+            // numericUpDown
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            numericUpDown.Location = new Point(367, 242);
+            numericUpDown.Name = "numericUpDown";
+            numericUpDown.Size = new Size(111, 22);
+            numericUpDown.TabIndex = 9;
+            numericUpDown.Value = new decimal(new int[] { 1, 0, 0, 0 });
+            numericUpDown.ValueChanged += numericUpDown_ValueChanged;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Bolt_com_fundo_amarelo;
+            pictureBox1.Location = new Point(-5, 11);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(510, 135);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 10;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(17, 25, 12);
+            label3.Location = new Point(429, 70);
+            label3.Name = "label3";
+            label3.Size = new Size(311, 61);
+            label3.TabIndex = 11;
+            label3.Text = "Lanchonete";
+            // 
+            // cmbPagamento
+            // 
+            cmbPagamento.FormattingEnabled = true;
+            cmbPagamento.Location = new Point(367, 413);
+            cmbPagamento.Name = "cmbPagamento";
+            cmbPagamento.Size = new Size(121, 24);
+            cmbPagamento.TabIndex = 12;
+            cmbPagamento.SelectedIndexChanged += cmbPagamento_SelectedIndexChanged;
+            // 
+            // labelV
+            // 
+            labelV.AutoSize = true;
+            labelV.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelV.Location = new Point(309, 443);
+            labelV.Name = "labelV";
+            labelV.Size = new Size(52, 18);
+            labelV.TabIndex = 13;
+            labelV.Text = "Valor:";
+            // 
+            // labelT
+            // 
+            labelT.AutoSize = true;
+            labelT.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelT.Location = new Point(303, 471);
+            labelT.Name = "labelT";
+            labelT.Size = new Size(58, 18);
+            labelT.TabIndex = 14;
+            labelT.Text = "Troco:";
+            // 
+            // txtValorPago
+            // 
+            txtValorPago.Location = new Point(367, 443);
+            txtValorPago.Name = "txtValorPago";
+            txtValorPago.Size = new Size(121, 22);
+            txtValorPago.TabIndex = 15;
+            txtValorPago.TextChanged += txtValorPago_TextChanged;
+            // 
+            // txtTroco
+            // 
+            txtTroco.Location = new Point(367, 471);
+            txtTroco.Name = "txtTroco";
+            txtTroco.Size = new Size(121, 22);
+            txtTroco.TabIndex = 16;
+            txtTroco.TextChanged += txtTroco_TextChanged;
+            // 
+            // checkViagem
+            // 
+            checkViagem.AutoSize = true;
+            checkViagem.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkViagem.Location = new Point(549, 465);
+            checkViagem.Name = "checkViagem";
+            checkViagem.Size = new Size(130, 24);
+            checkViagem.TabIndex = 17;
+            checkViagem.Text = "Para Viagem";
+            checkViagem.UseVisualStyleBackColor = true;
+            checkViagem.CheckedChanged += checkViagem_CheckedChanged;
+            // 
+            // nomeCliente
+            // 
+            nomeCliente.Location = new Point(367, 197);
+            nomeCliente.Name = "nomeCliente";
+            nomeCliente.Size = new Size(111, 22);
+            nomeCliente.TabIndex = 18;
+            nomeCliente.TextChanged += nomeCliente_TextChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(364, 174);
+            label4.Name = "label4";
+            label4.Size = new Size(75, 20);
+            label4.TabIndex = 19;
+            label4.Text = "Cliente: ";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(263, 413);
+            label5.Name = "label5";
+            label5.Size = new Size(98, 18);
+            label5.TabIndex = 20;
+            label5.Text = "Pagamento:";
+            // 
+            // Form1_Pedidos
+            // 
+            AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(230, 255, 0);
+            ClientSize = new Size(839, 620);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(nomeCliente);
+            Controls.Add(checkViagem);
+            Controls.Add(txtTroco);
+            Controls.Add(txtValorPago);
+            Controls.Add(labelT);
+            Controls.Add(labelV);
+            Controls.Add(cmbPagamento);
+            Controls.Add(label3);
+            Controls.Add(numericUpDown);
             Controls.Add(btbEncerrar);
             Controls.Add(btnremover);
             Controls.Add(btnAdicionar);
@@ -127,10 +272,14 @@
             Controls.Add(listBox1);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            Controls.Add(pictureBox1);
+            Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Name = "Form1_Pedidos";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Pedidos";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)numericUpDown).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -145,5 +294,17 @@
         private Button btnAdicionar;
         private Button btnremover;
         private Button btbEncerrar;
+        private NumericUpDown numericUpDown;
+        private PictureBox pictureBox1;
+        private Label label3;
+        private ComboBox cmbPagamento;
+        private Label labelV;
+        private Label labelT;
+        private TextBox txtValorPago;
+        private TextBox txtTroco;
+        private CheckBox checkViagem;
+        private TextBox nomeCliente;
+        private Label label4;
+        private Label label5;
     }
 }

@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|c:\\users\\25163078\\desktop\\codigos c# vinicius ribeiro\\cantina 1.3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|C:\\Users\\25163078\\Desktop\\codigos C# Vinicius Ribeiro\\Cantina 1.3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|c:\\users\\25163078\\desktop\\codigos c# vinicius ribeiro\\cantina 1.3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA5D4FA-52AA-4599-B7B2-8C4EEAFA29C1}|Cantina 1.3.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +40,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\25163078\\Desktop\\codigos C# Vinicius Ribeiro\\Cantina 1.3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T11:28:11.604Z",
               "EditorCaption": ""
@@ -42,8 +54,19 @@
               "ToolTip": "C:\\Users\\25163078\\Desktop\\codigos C# Vinicius Ribeiro\\Cantina 1.3\\Form1.cs [Projeto]",
               "RelativeToolTip": "Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:23:16.986Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-08T11:23:16.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\25163078\\Desktop\\codigos C# Vinicius Ribeiro\\Cantina 1.3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\25163078\\Desktop\\codigos C# Vinicius Ribeiro\\Cantina 1.3\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T14:40:19.58Z"
             }
           ]
         }
