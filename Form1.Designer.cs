@@ -55,20 +55,20 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(67, 153);
             label1.Name = "label1";
-            label1.Size = new Size(77, 18);
+            label1.Size = new Size(81, 19);
             label1.TabIndex = 0;
             label1.Text = "Produtos";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(539, 153);
             label2.Name = "label2";
-            label2.Size = new Size(73, 18);
+            label2.Size = new Size(78, 19);
             label2.TabIndex = 1;
             label2.Text = "Carrinho";
             // 
@@ -91,16 +91,16 @@
             // lblTotal
             // 
             lblTotal.AutoSize = true;
-            lblTotal.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTotal.Font = new Font("Inter", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTotal.Location = new Point(539, 357);
             lblTotal.Name = "lblTotal";
-            lblTotal.Size = new Size(94, 29);
+            lblTotal.Size = new Size(91, 29);
             lblTotal.TabIndex = 4;
             lblTotal.Text = "Total:  ";
             // 
             // btnAdicionar
             // 
-            btnAdicionar.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAdicionar.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdicionar.Location = new Point(367, 270);
             btnAdicionar.Name = "btnAdicionar";
             btnAdicionar.Size = new Size(111, 32);
@@ -111,7 +111,7 @@
             // 
             // btnremover
             // 
-            btnremover.Font = new Font("Microsoft Sans Serif", 11.249999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnremover.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnremover.Location = new Point(367, 308);
             btnremover.Name = "btnremover";
             btnremover.Size = new Size(111, 31);
@@ -122,10 +122,10 @@
             // 
             // btbEncerrar
             // 
-            btbEncerrar.Font = new Font("Microsoft Sans Serif", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btbEncerrar.Location = new Point(549, 495);
+            btbEncerrar.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btbEncerrar.Location = new Point(549, 494);
             btbEncerrar.Name = "btbEncerrar";
-            btbEncerrar.Size = new Size(140, 48);
+            btbEncerrar.Size = new Size(139, 47);
             btbEncerrar.TabIndex = 7;
             btbEncerrar.Text = "Fechar Pedido";
             btbEncerrar.UseVisualStyleBackColor = true;
@@ -154,11 +154,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Microsoft Sans Serif", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Inter", 42F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(17, 25, 12);
-            label3.Location = new Point(429, 70);
+            label3.Location = new Point(429, 69);
             label3.Name = "label3";
-            label3.Size = new Size(311, 61);
+            label3.Size = new Size(353, 67);
             label3.TabIndex = 11;
             label3.Text = "Lanchonete";
             // 
@@ -174,20 +174,20 @@
             // labelV
             // 
             labelV.AutoSize = true;
-            labelV.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelV.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelV.Location = new Point(309, 443);
             labelV.Name = "labelV";
-            labelV.Size = new Size(52, 18);
+            labelV.Size = new Size(55, 19);
             labelV.TabIndex = 13;
             labelV.Text = "Valor:";
             // 
             // labelT
             // 
             labelT.AutoSize = true;
-            labelT.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelT.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelT.Location = new Point(303, 471);
             labelT.Name = "labelT";
-            labelT.Size = new Size(58, 18);
+            labelT.Size = new Size(60, 19);
             labelT.TabIndex = 14;
             labelT.Text = "Troco:";
             // 
@@ -210,10 +210,10 @@
             // checkViagem
             // 
             checkViagem.AutoSize = true;
-            checkViagem.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            checkViagem.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             checkViagem.Location = new Point(549, 465);
             checkViagem.Name = "checkViagem";
-            checkViagem.Size = new Size(130, 24);
+            checkViagem.Size = new Size(127, 23);
             checkViagem.TabIndex = 17;
             checkViagem.Text = "Para Viagem";
             checkViagem.UseVisualStyleBackColor = true;
@@ -230,20 +230,20 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(364, 174);
             label4.Name = "label4";
-            label4.Size = new Size(75, 20);
+            label4.Size = new Size(74, 19);
             label4.TabIndex = 19;
             label4.Text = "Cliente: ";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Inter", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label5.Location = new Point(263, 413);
             label5.Name = "label5";
-            label5.Size = new Size(98, 18);
+            label5.Size = new Size(103, 19);
             label5.TabIndex = 20;
             label5.Text = "Pagamento:";
             // 
