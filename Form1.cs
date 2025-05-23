@@ -279,6 +279,12 @@ namespace Cantina_1._3
         {
 
         }
+
+        private void btnAbre_Click(object sender, EventArgs e)
+        {
+            Balcao minhaNovaJanela = new Balcao(); // Criando uma instância da janela Balcao
+            minhaNovaJanela.Show(); // Exibindo a nova janela sem bloquear a principal
+        }
     }
 }
 

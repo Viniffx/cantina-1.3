@@ -34,3 +34,4 @@ C:\Users\vinic\OneDrive\Área de Trabalho\Programas C#\Cantina 1.3\obj\Debug\net
 C:\Users\25163078\Desktop\codigos C# Vinicius Ribeiro\Cantina 1.3\obj\Debug\net8.0-windows\Cantina_1._3.Form1_Pedidos.resources
 C:\Users\25163078\Desktop\codigos C# Vinicius Ribeiro\Cantina 1.3\obj\Debug\net8.0-windows\Cantina_1._3.Properties.Resources.resources
 C:\Users\25163078\Desktop\codigos C# Vinicius Ribeiro\Cantina 1.3\obj\Debug\net8.0-windows\Cantina 1.3.sourcelink.json
+C:\Users\25163078\Desktop\codigos C# Vinicius Ribeiro\Cantina 1.3\obj\Debug\net8.0-windows\Cantina_1._3.Balcao.resources

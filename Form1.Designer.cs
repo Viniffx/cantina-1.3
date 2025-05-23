@@ -48,6 +48,7 @@
             nomeCliente = new TextBox();
             label4 = new Label();
             label5 = new Label();
+            btnAbre = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -247,12 +248,23 @@
             label5.TabIndex = 20;
             label5.Text = "Pagamento:";
             // 
+            // btnAbre
+            // 
+            btnAbre.Location = new Point(549, 561);
+            btnAbre.Name = "btnAbre";
+            btnAbre.Size = new Size(219, 47);
+            btnAbre.TabIndex = 21;
+            btnAbre.Text = "balcaoo (testes)";
+            btnAbre.UseVisualStyleBackColor = true;
+            btnAbre.Click += btnAbre_Click;
+            // 
             // Form1_Pedidos
             // 
             AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(230, 255, 0);
             ClientSize = new Size(839, 620);
+            Controls.Add(btnAbre);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(nomeCliente);
@@ -306,5 +318,6 @@
         private TextBox nomeCliente;
         private Label label4;
         private Label label5;
+        private Button btnAbre;
     }
 }
